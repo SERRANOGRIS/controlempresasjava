@@ -20,7 +20,7 @@ public class Contacto {
         this.email = email;
         this.telefono = telefono;
         this.celular = celular;
-        this.top_aux = top_aaux;
+        this.top_aux = top_aux;
         this.empresa = empresa;
     }
 
@@ -64,12 +64,12 @@ public class Contacto {
         this.celular = celular;
     }
 
-    public int getTop_aaux() {
+    public int getTop_aux() {
         return top_aux;
     }
 
-    public void setTop_aaux(int top_aaux) {
-        this.top_aux = top_aaux;
+    public void setTop_aux(int top_aux) {
+        this.top_aux = top_aux;
     }
 
     public ArrayList<Empresa> getEmpresa() {
@@ -79,11 +79,6 @@ public class Contacto {
     public void setEmpresa(ArrayList<Empresa> empresa) {
         this.empresa = empresa;
     }
-
-    public int getTop_aux() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-   
+  
     
 }
